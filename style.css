@@ -1,0 +1,97 @@
+*{
+	box-sizing: border-box;
+}
+
+
+
+body {
+	background:#EFE7BC;
+	margin: 20px;
+}
+
+
+article {
+	display:flex;
+	grid-template-columns: 1fr 1fr;
+	background-color: whitesmoke;
+	margin-bottom: 6vw;
+	grid-gap: 1rem;
+	flex-direction: column;
+	position: relative;
+	box-shadow: 10px 10px 78px -1px rgba(0, 0, 0, 0.25);
+	padding: 15px;
+}
+
+main{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 1rem 2rem;
+	grid-column: 2/ -1;
+	grid-row: 2/3;
+}
+img {
+	max-width: 100%;
+	border-bottom: 5rem;
+}
+.margins {
+	margin:3px;
+	align-items: stretch;
+	padding: 1rem;
+}
+.button_1 {
+	margin-left: 5rem;
+
+	margin top: 30px;
+	margin-bottom: 10px;
+	padding: 10px;
+	display: block;
+}
+.button{
+	margin: 0;
+	padding: 0.5rem;
+	border-color: brown;
+	color: brown;
+	cursor: pointer;
+	font-size: 20px;
+	font-family:monospace;
+
+}
+.category {
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: gray;
+	font-weight: 100px;
+}
+
+h1{
+	margin: 0;
+	font-family: 'Crimson Text', serif;
+	color: gray;
+	font-weight: 100px;
+}
+
+.text1{
+	color: brown;
+}
+
+.birkstone{
+	background: black;
+	color: aliceblue;
+
+}
+.color {
+	font-style: italic;
+	font-weight: bold;
+	color: gray;
+	font-family: sans-serif;
+}
+.stock{
+	font-style: italic;
+	font-weight:100;
+	color: gray;
+	font-family: sans-serif;
+}
+
+
+
+
